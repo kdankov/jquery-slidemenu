@@ -1,0 +1,21 @@
+.slide_menu { overflow: hidden; border: 1px solid #CCC;  }
+.slide_menu .slide_menu_wrapper { width: 10000px; position: relative; } 
+.slide_menu ul { background: #FFF; float: left; position: absolute; top: 0; left: 0; margin: 0; padding: 0; }
+.slide_menu ul ul { left: 100%; display: none; } 
+.slide_menu li { display: block; list-style-type: none; list-style-position: outside; border-bottom: 1px solid #CCC; text-indent: 10px; }
+.slide_menu li span { display: block; font-size: 1.2em; text-decoration: none; color: #000; cursor: pointer; line-height: 30px; white-space: nowrap; }
+.slide_menu li a { display: block; text-decoration: none; color: #369; line-height: 30px; white-space: nowrap; }
+.slide_menu li a:hover { background: #F9F9F9; font-weight: bold;  }
+
+.slide_menu ul li.parent { background: url(images/bullet_right.gif) 98% 2px no-repeat; }
+.slide_menu ul li.parent:hover { background: url(images/bullet_right.gif) 99% -26px no-repeat; }
+.slide_menu ul li.parent:hover > span { font-weight: bold; }
+
+.slide_menu ul li.active > ul { display: block; }
+
+.slide_menu .back { display: block; line-height: 30px; background: url(images/bullet_left.gif) left -1px no-repeat; text-indent: 30px;  }
+.slide_menu .back:hover,
+.slide_menu .back.hover { cursor: pointer; background-position: left -29px; }
+
+.slide_menu .slide_menu_wrapper { height: 300px; }
+.slide_menu, .slide_menu ul li { width: 200px; }

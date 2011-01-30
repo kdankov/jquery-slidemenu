@@ -1,0 +1,83 @@
+
+
+
+
+
+/* --- General reset --- */
+* { padding: 0; margin: 0;  }
+a { text-decoration: none;  }
+a img { border: none; }
+li { list-style: none outside; display: block; }
+
+/* --- General classes --- */
+.cleaner { display: block; height: 1px; clear: both; overflow: hidden; font-size: 1px; }
+
+/* --- Typography --- */
+body { font: 100% 'Neuton', Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif; padding: 50px;   }
+h1, h2, h3, h4, h5,
+h6 { font: 3em/1.2em "Lobster", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; }
+
+/* --- Layout --- */
+#page_container { width: 500px; margin: 0 auto; font-size: 0.9em; }
+
+#header h1 { color: #369; padding-bottom: 40px; text-align: center; }
+
+/* --- Basic grid styles --- */
+.col { float: left; overflow: hidden; }
+.col .inner.left { padding: 0 0 0 20px; }
+.col .inner.right { padding: 0 20px 0 0; }
+.col .inner.top { padding: 20px 0 0 0; }
+.col .inner.bottom { padding: 0 0 20px 0; }
+.col .inner.all { padding: 20px; }
+
+.col.w2 { width: 50%; }
+.col.w3 { width: 33%; }
+.col.w4 { width: 25%; }
+.col.w5 { width: 20%; }
+.col.w23 { width: 66%; }
+.col.w34 { width: 75%; }
+.col.w25 { width: 40%; }
+.col.w35 { width: 60%; }
+.col.w45 { width: 80%; }
+
+/* --------- Rich Text Editor Styles ------------------------------------------------------------------------------------*/
+.rte {  }
+
+.rte h1 { font-weight: normal; font-size: 220%; padding: 0 0 20px 0; }
+.rte h2 { font-weight: normal; font-size: 180%; padding: 15px 0 10px 0; }
+.rte h3 { font-weight: normal; font-size: 160%; padding: 10px 0 5px 0; }
+.rte h4 { font-weight: normal; font-size: 140%; padding: 5px 0; }
+.rte h5 { font-size: 120%; padding: 0 0 5px 0; }
+.rte h6 { font-size: 100%; padding: 0 0 5px 0; }
+
+.rte a {  }
+
+.rte p { padding: 0 0 20px 0; }
+.rte p a {  }
+.rte p + ul { padding: 0 30px 20px 30px; }
+.rte p + ol { padding: 0 30px 20px 30px; }
+
+.rte ul { padding: 20px 30px; }
+.rte ul ul { padding: 10px 30px; }
+.rte ul li { list-style: disc outside; display: list-item; }
+.rte ul li li { list-style: circle; }
+.rte ul li a {  }
+.rte ul + ul { padding: 0 30px 20px 30px; }
+
+.rte ol { padding: 20px 30px; }
+.rte ol ol { padding: 10px 30px; }
+.rte ol li { list-style: decimal outside; display: list-item;  }
+.rte ol li a {  }
+.rte ol + ol { padding: 0 30px 20px 30px; }
+
+.rte code { display: block; background: #EEE; border: 1px solid #CCC; font: 0.8em Courier, Tahoma, sans-serif; padding: 10px; margin: 20px 0; white-space: pre; }
+.rte p + code { margin-top: 0; }
+
+.rte blockquote { color: #666; padding: 20px; border-left: 5px solid #CCC; margin: 0 20px 20px 20px;  }
+.rte blockquote p { padding-bottom: 0; line-height: 20px; }
+
+.rte img[align=right],
+.rte table[align=right] { margin-left: 20px; 	}
+
+.rte img[align=left],
+.rte table[align=left] 	{ margin-right: 20px; 	}
