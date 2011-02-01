@@ -2,7 +2,7 @@ $(function(){
 	
 	WebFontConfig = {
 		google: { 
-			families: [ 'Lobster', 'Neuton' ] 
+			families: [ 'Lobster', 'PT Sans' ] 
 		}
 	}
 
@@ -23,7 +23,7 @@ $(function(){
 	wf_load();
 	
 		
-	$("#nav").slideMenu();
+	$(".nav").slideMenu();
 	
 	// $("#nav").fadeMenu();
 	
