@@ -2,13 +2,14 @@
 
 
 .slide_menu .slide_menu_wrapper { height: 460px; }
+
 .slide_menu { width: 202px; background: url('images/wrapper_bgrd.png') left top no-repeat; }
 .slide_menu_inner { background: url('images/wrapper_inner_bgrd.png') bottom left no-repeat; }
-.slide_menu ul { width: 202px; padding: 0; }
+.slide_menu ul { width: 202px; }
 
 .slide_menu { overflow: hidden; }
 .slide_menu .slide_menu_wrapper { width: 10000px; position: relative; } 
-.slide_menu ul { float: left; position: absolute; top: 0; left: 0; margin: 0; padding: 13px 0 2px 0; clear: both; }
+.slide_menu ul { float: left; position: absolute; top: 0; left: 0; margin: 0; padding: 10px 0 0 0; clear: both; }
 .slide_menu ul li { display: block; width: 184px; list-style-type: none; list-style-position: outside;  text-indent: 10px; margin: 0 10px 10px 10px; }
 .slide_menu ul li .holder { width: 184px; height: 41px; position: relative;  }
 .slide_menu ul li ul { display: none; left: 100%; clear: both; } 
